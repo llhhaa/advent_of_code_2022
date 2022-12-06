@@ -51,7 +51,7 @@ def rucksack_groups
 end
 
 def rucksack_raw
-  File.read('rucksack.txt')
+  File.read('input/rucksack.txt')
 end
 
 puts rucksack_groups.map { |rg| rg.print_rucksacks; rg.shared_item_score }.sum

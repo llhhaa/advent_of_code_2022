@@ -13,5 +13,5 @@ def elfcals
 end
 
 def elfcals_raw
-  File.read('calories.txt')
+  File.read('input/calories.txt')
 end
