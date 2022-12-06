@@ -40,7 +40,7 @@ class AssignmentPair
 end
 
 def assignment_pairs
-  File.read('pair_assignments.txt').each_line.map do |line|
+  File.read('input/pair_assignments.txt').each_line.map do |line|
     AssignmentPair.new(line)
   end
 end
