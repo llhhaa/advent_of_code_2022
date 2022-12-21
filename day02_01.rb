@@ -45,7 +45,7 @@ def rounds
 end
 
 def rounds_raw
-  File.read('stratguide.txt')
+  File.read('input/stratguide.txt')
 end
 
 puts rounds.map {|r| round_score(r) }.sum
